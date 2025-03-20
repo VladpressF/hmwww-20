@@ -2,7 +2,10 @@
     display: flex;
     overflow-x: auto;
     }
-    
+    ul{
+        list-style: none;
+        padding: 0;
+    }
     .image {
     width: 300px;
     height: 200px;

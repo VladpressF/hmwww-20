@@ -9,7 +9,7 @@ let currentIndex = 0;
 
 function showImage(index) {
   images.forEach((img, i) => {
-    img.style.opacity = i === index ? '1' : '0.3';
+    img.style.display = i === index ? 'block' : 'none';
   });
 }
 
